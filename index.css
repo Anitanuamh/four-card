@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@700;900&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.cards{
+    height: 130vh;
+    background-color: hsl(0, 0%, 98%);
+    
+}
+.main{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin-left: 300px;
+    padding-top: 50px;
+    line-height: 25px;
+    font-family: 'Times New Roman', Times, serifs;
+}
+.main span{
+text-transform: uppercase;
+font-size: 1rem;
+}
+
+.main p{
+    padding-top: 5px;
+}
+
+.images{
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    display: grid;
+    gap: 10px;
+    grid-template-rows: 100px 100px 100px 100px 100px 100px;
+    grid-template-columns: 100px 100px 100px 100px 100px 100px;
+}
+.team{
+    grid-row-start: 1;
+    grid-row-end: 4;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    background-color: #fefefe;
+    height: 200px;
+    width: 300px;
+    margin-left: 120px;
+}
+.team .color{
+    height: 5px;
+    width: 300px;
+    background-color: hsl(0, 78%, 62%);
+}
+.team img, .supervisor img,
+.karma img, .calculator img{
+float: right;
+margin-top: 30px;
+}
+
+.images .team h2, .supervisor h2,
+.karma h2, .calculator h2{
+    padding-top: 20px;
+    text-transform: capitalize;
+    justify-content: center;
+}
+.supervisor{
+    grid-row-start: 3;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    background-color: #fefefe;
+    height: 200px;
+    width: 300px;
+}
+.supervisor .color{
+    height: 5px;
+    width: 300px;
+    background-color: hsl(34, 97%, 64%);
+}
+.calculator{
+    grid-row-start: 2;
+    grid-row-end: 6;
+    grid-column-start: 6;
+    grid-column-end: 6;
+    background-color: #fefefe;
+    height: 200px;
+    width: 300px;
+    margin-left: 120px;
+}
+.calculator .color{
+    height: 5px;
+    width: 300px;
+    background-color: hsl(212, 86%, 64%);
+}
+
+.karma{
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 4;
+    grid-column-end: 4;
+    background-color: #fefefe;
+    height: 200px;
+    width: 300px;
+}
+.karma .color{
+    height: 5px;
+    width: 300px;
+    background-color: hsl(180, 62%, 55%);
+}
+@media only screen and (max-width: 375px) {
+    .cards {
+      width: 100%;
+      padding: 10px;
+      height: auto;
+    }
+  
+    .main {
+      align-items: center;
+      padding: 10px;
+      margin-left: 0px;
+      text-align: center;
+    }
+  
+    .main h1 {
+      font-size: 1.5rem;
+    }
+  
+    .main span {
+      font-size: 0.8rem;
+    }
+    .main p{
+        font-size: 1.1rem;
+    }
+  
+    
+  }
+
+  @media only screen and (max-width: 1440px){
+    
+  }
+  
